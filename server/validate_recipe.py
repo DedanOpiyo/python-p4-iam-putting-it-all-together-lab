@@ -1,5 +1,5 @@
 # validate_recipe.py
-from custom_api_exception import APIException
+from api_exception import APIException
 
 class ValidateRecipe:
     def __init__(self, title, instructions, minutes_to_complete, user_id):

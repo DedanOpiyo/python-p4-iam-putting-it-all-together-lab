@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 from validate_recipe import ValidateRecipe
-from custom_api_exception import APIException
+from api_exception import APIException
 
 from flask import request, session, jsonify, make_response, abort
 from flask_restful import Resource
